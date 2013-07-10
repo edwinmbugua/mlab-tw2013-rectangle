@@ -4,13 +4,15 @@ import org.junit.Test;
 
 
 public class RectangleTest {
+	//Arrange
 
 	@Test
 	public void should_calculate_area() {
+		//Activate
 		Rectangle rectangle = new Rectangle(10,15);
 		
 		int area = rectangle.area();
-		
+		//Assert
 		assertEquals(150, area);
 	}
 
